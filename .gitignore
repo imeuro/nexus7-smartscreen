@@ -1,6 +1,5 @@
 .DS_Store
-logs/*.json
-js/client_secret.json
-backgrounds
-boxes/COVID-19
-logs/gcal.php
+boxes/COVID-19/*
+!boxes/COVID-19/dati-json/dpc-covid19-ita-andamento-nazionale.json
+logs/credentials.json
+logs/token.json
