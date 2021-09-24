@@ -1,0 +1,18 @@
+{
+    "aqara_outside": {
+        "linkquality": 21, 
+        "temperature": 9.46, 
+        "battery": 86, 
+        "humidity": 24.56, 
+        "voltage": 2975, 
+        "time": "13-02-2020 00:56"
+    }, 
+    "aqara_inside": {
+        "linkquality": 72, 
+        "temperature": 19.48, 
+        "battery": 100, 
+        "humidity": 29.98, 
+        "voltage": 3025, 
+        "time": "13-02-2020 00:56"
+    }
+}
