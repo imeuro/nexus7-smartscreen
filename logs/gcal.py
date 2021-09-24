@@ -13,7 +13,8 @@ from google.oauth2.credentials import Credentials
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
-WDIR = '/home/pi/www_root/pizero-weather/logs/'
+WDIR = '/var/www/html/Nexus7-smartscreen/logs/'
+CALID = 'YOUR_CALENDAR_ID_HERE'
 
 def main():
     """Shows basic usage of the Google Calendar API.
@@ -44,7 +45,7 @@ def main():
     now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
     #print('Getting the upcoming 5 events')
     events_result = service.events().list(
-        calendarId='gtarnu64qd4r4tvvi8lh5bssc8@group.calendar.google.com', 
+        calendarId=CALID, 
         timeMin=now,
         maxResults=4,
         singleEvents=True,

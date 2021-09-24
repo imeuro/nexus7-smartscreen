@@ -1,7 +1,6 @@
 
 <?php
 $file = file_get_contents("./boxes/COVID-19/dati-json/dpc-covid19-ita-andamento-nazionale.json");
-// $file = file_get_contents("./COVID-19/dati-json/dpc-covid19-ita-regioni.json");
 $csv = json_decode($file, true);
 // var_dump($csv);
 

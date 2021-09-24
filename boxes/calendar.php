@@ -28,13 +28,6 @@ $week_day_first = date('N', mktime(0, 0, 0, date('m'), 1, date('Y')));
 </div>
 
 
-
-
-<!--Add buttons to initiate auth sequence and sign out
-<button id="authorize-button" style="display: none;">Authorize</button>
-<button id="signout-button" style="display: none;">Sign Out</button>
--->
-
 <ul id="content">
   <?php include('../logs/gcal.php') ?>
 </ul>

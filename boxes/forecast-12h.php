@@ -2,9 +2,8 @@
 <div class="forecast-12hrs">
 	
 	<?php
-	$city="45.487712,9.156255";
-	$appid="fa6e88ee0496634a39f0843f3406ffcf";
-	// https://api.darksky.net/forecast/fa6e88ee0496634a39f0843f3406ffcf/45.487712,9.156255?units=ca&exclude=minutely,hourly,daily,alerts,flags
+	include('../credentials.php');
+
 	$url="https://api.darksky.net/forecast/".$appid."/".$city."?units=ca&exclude=currently,minutely,alerts,flags";
 
 	$json=file_get_contents($url);

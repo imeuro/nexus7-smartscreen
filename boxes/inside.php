@@ -21,15 +21,6 @@ $humialert= ($humidity < 30 || $humidity > 60) ? " warning" : " ok";
 	</div>
 </div>
 
-<!--
-<div class="room2-container">
-	<h2 class="humi">GIORGIA</h2>
-	<p class="humi">
-		<?php //echo $temperature2; ?> <i class="wi wi-thermometer<?php //echo $tempa2lert ?>"></i>
-	</p>
-</div>
--->
-
 <div class="humi-container">
 	<h2 class="humi">Humidity</h2>
 	<p class="humi" data-humi="<?php echo $humidity; ?>">

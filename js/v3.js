@@ -1,6 +1,5 @@
-
 // individually refreshes the blocks on the main page
-// where, what, when
+// where in page, what file, every how many seconds
 let loadblock = function(target,blockname,interval) {
 
 	fetch('boxes/'+blockname).then((response) => {
